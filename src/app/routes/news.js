@@ -17,8 +17,21 @@ module.exports = app => {
       res.render('news/news',{
         news: result
       })
-    })
-    
+    });
+  });
+
+  app.post('/news', (req, res) => {
+    const {title, news} = req.body;
+    console.log(req.body);
+    connection.query('INSERT INTO news SET ? ',
+    {
+      title,
+      news
+    },
+     (err, result) => {
+    res.redirect('/');
+    });
+
   });
 
 }
