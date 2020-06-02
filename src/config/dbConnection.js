@@ -6,6 +6,6 @@ module.exports = () => {
     port: '3306',
     user: 'root',
     password: 'kevinsecret2020',
-    database: 'news_portal'
+    database: 'spotify'
   });
 }

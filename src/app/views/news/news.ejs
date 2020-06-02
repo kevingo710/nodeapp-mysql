@@ -8,7 +8,7 @@
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark">
-      <a href="" class="navbar-brand mx-auto">News</a>
+      <a href="#" class="navbar-brand mx-auto">News</a>
     </nav>
 
     <h1> Hola mundo</h1>
@@ -26,9 +26,9 @@
           </tr>
           <% for (var i = 0; i < news.length; i ++) { %>
             <tr>
-              <td><%= news[i].id_news %></td>
-              <td><%= news[i].title %></td>
-              <td><%= news[i].news %></td>
+              <td><%= news[i].ID %></td>
+              <td><%= news[i].NAME %></td>
+              <td><%= news[i].ALIAS %></td>
             </tr>
           <% } %>
         </table>
