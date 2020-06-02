@@ -2,25 +2,23 @@ const dbConnection = require('../../config/dbConnection');
 
 module.exports = app => {
 
-  const connection = dbConnection();
+  const connection =dbConnection();
 
-  app.get('/news', (req, res) => {
-    connection.query('SELECT * FROM news', (err, result) => {
-      res.render('news/news', {
+  connection.connect(function(err) {
+    if (err) throw err;
+    console.log('“##Successfully connected to MySQL container##”');
+  });
+
+
+  app.get('/',(req, res)=> {
+    connection.query('SELECT * FROM news', (err, result)=>{
+      console.log(result)
+      console.log('Hola mundo')
+      res.render('news/news',{
         news: result
-      });
-    });
+      })
+    })
+    
   });
 
-  app.post('/news', (req, res) => {
-    const { title, news } = req.body;
-    connection.query('INSERT INTO news SET ? ',
-      {
-        title,
-        news
-      }
-    , (err, result) => {
-      res.redirect('/news');
-    });
-  });
-};
+}
