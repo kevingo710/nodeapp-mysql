@@ -2,17 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>News</title>
+    <title>Spotify</title>
+    <link rel="stylesheet" href="/src/app/public/css/news.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark">
-      <a href="#" class="navbar-brand mx-auto">News</a>
+      <a href="#" class="navbar-brand mx-auto">Spotify</a>
     </nav>
 
-    <h1> Hola mundo</h1>
-    <%= news %>
+    <h1> Artistas</h1>
+    <!-- <%= news %> -->
 
 
     
@@ -21,8 +22,8 @@
         <table class="table table-striped table-bordered">
           <tr>
             <th>ID</th>
-            <th>Title</th>
-            <th>News</th>
+            <th>Name</th>
+            <th>Alias</th>
           </tr>
           <% for (var i = 0; i < news.length; i ++) { %>
             <tr>
@@ -36,12 +37,12 @@
 
       <div class="col-md-6 mt-4 card">
         <form class="card-body" action="/news" method="post">
-          <h3 class="card-title">Add News</h3>
+          <h3 class="card-title">Add Artists</h3>
           <div class="form-group">
-            <input name="title" type="text" class="form-control" placeholder="News Titlte">
+            <input name="title" type="text" class="form-control" placeholder="Name">
           </div>
           <div class="form-group">
-            <input name="news" type="text" class="form-control" placeholder="News Content">
+            <input name="news" type="text" class="form-control" placeholder="Alias">
           </div>
           <input type="submit" class="btn btn-primary">
         </form>
