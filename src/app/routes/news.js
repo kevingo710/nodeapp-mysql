@@ -1,8 +1,12 @@
 const dbConnection = require('../../config/dbConnection');
 
+
+
+
 module.exports = app => {
 
   const connection =dbConnection();
+
 
   connection.connect(function(err) {
     if (err) throw err;
@@ -19,6 +23,18 @@ module.exports = app => {
       })
     });
   });
+
+  app.get('/api', (req, res) => {
+    connection.query('SELECT * FROM ARTIST', (err, rows, fields) => {
+      if(!err) {
+        res.json(rows);
+      } else {
+        console.log(err);
+      }
+    });  
+  });
+
+
 
   // app.post('/news', (req, res) => {
   //   const {title, news} = req.body;
