@@ -16,7 +16,7 @@ module.exports = app => {
 
   app.get('/',(req, res)=> {
 
-      res.render('news/index',{
+      res.render('news/news',{
 
       });
 
