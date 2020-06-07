@@ -15,13 +15,11 @@ module.exports = app => {
 
 
   app.get('/',(req, res)=> {
-    connection.query('SELECT * FROM ARTIST', (err, result)=>{
-      console.log(result)
-      console.log('Hola mundo')
+
       res.render('news/index',{
-        news: result
-      })
-    });
+
+      });
+
   });
 
   app.get('/api', (req, res) => {
