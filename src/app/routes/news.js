@@ -13,14 +13,13 @@ module.exports = app => {
     console.log('“##Successfully connected to MySQL container##”');
   });
 
-
-  app.get('/',(req, res)=> {
-
-      res.render('news/news',{
-
+  
+  app.get('/', (req, res) => {
+    
+      res.render('news/news', {
+      
       });
-
-  });
+    });
 
   app.get('/api', (req, res) => {
     connection.query('SELECT * FROM ARTIST', (err, rows, fields) => {
