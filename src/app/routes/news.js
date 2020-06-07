@@ -18,7 +18,7 @@ module.exports = app => {
     connection.query('SELECT * FROM ARTIST', (err, result)=>{
       console.log(result)
       console.log('Hola mundo')
-      res.render('news/news',{
+      res.render('news/index',{
         news: result
       })
     });
