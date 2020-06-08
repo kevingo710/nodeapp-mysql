@@ -49,7 +49,7 @@ package.json -> donde estaran nuestras configuraciones iniciales
 📽️ Vistas Lógica creo un carpeta /routes 📜  donde estara la configuracion backend de las vistas, requerimos la funcion creada en el paso anterior y hago consultas a la bd a la vez genera vistas con respuestas en json para generar una api con mis resultados [news.js](https://github.com/kevingo710/nodeapp-mysql/blob/master/src/app/routes/news.js)
 
 
-🖥️ Vistas Cliente creo una carpeta /views y dentro de ella los archivos ejs (ext. motor de plantillas) de las vista con el mismo nombre de la ruta para que tenga concordancia 'news.ejs'
+🖥️ Vistas Cliente creo una carpeta /views y dentro de ella los archivos ejs (ext. motor de plantillas) de las vista con el mismo nombre de la ruta para que tenga concordancia [news.ejs](https://github.com/kevingo710/nodeapp-mysql/blob/master/src/app/views/news/news.ejs)
 
 
 ## Construido con 🛠️ 
