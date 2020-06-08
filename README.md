@@ -85,6 +85,8 @@ _Este proyecto fue desarrollado por Fazt y esta adapatdo por mi_
 
 
 ---
-⌨️ con ❤️ por [kevingo710](https://github.com/kevingo710) 😊
+⌨️ con ❤️ por [kevingo710](https://github.com/kevingo710) 😊 
+
+![Follow me](https://img.shields.io/twitter/follow/kevingrac7?label=Follow%20me&style=social)
 
 
