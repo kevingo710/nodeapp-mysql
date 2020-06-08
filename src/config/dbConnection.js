@@ -2,10 +2,10 @@ const mysql = require('mysql');
 
 module.exports = () => {
   return mysql.createConnection({
-    host: '13.84.40.107',
-    port: '3306',
-    user: 'root',
-    password: 'kevinsecret2020',
-    database: 'spotify'
+    host: '1.1.1.1',
+    port: '1111',
+    user: '1111',
+    password: '11111',
+    database: '111111'
   });
 }
