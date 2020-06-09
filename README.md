@@ -85,8 +85,13 @@ _Este proyecto fue desarrollado por Fazt y esta adapatdo por mi_
 
 
 ---
-⌨️ con ❤️ por [kevingo710](https://github.com/kevingo710) 😊 
+⌨️ con ❤️ por [kevingo710](https://github.com/kevingo710) 😊
 
-![Follow me](https://img.shields.io/twitter/follow/kevingrac7?label=Follow%20me&style=social)
+<p>
+    <a href="https://twitter.com/intent/follow?screen_name=kevingrac7">
+    <img src="https://img.shields.io/twitter/follow/kevingrac7?style=social"
+    alt="follow on Twitter">
+    </a>
+<p>
 
 
