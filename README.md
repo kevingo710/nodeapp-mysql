@@ -70,7 +70,7 @@ _He usado distintos frameworks y herramientas_
 
 ## Autor ✒️
 
-_Este proyecto fue desarrollado por Fazt y esta adapatdo por mi_
+_Este proyecto fue adapatdo por mi_
 
 * **Kevin Gracia** - *Desarrollo* - [kevingo710](https://github.com/kevingo710)
 
