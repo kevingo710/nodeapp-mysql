@@ -74,7 +74,7 @@ _Este proyecto fue desarrollado por Fazt y esta adapatdo por mi_
 
 * **Kevin Gracia** - *Desarrollo* - [kevingo710](https://github.com/kevingo710)
 
-* **FaztWeb** - *Trabajo Inicial* - [FaztTech](https://github.com/FaztTech)
+
 
 ## Expresiones de Gratitud 🎁
 
